@@ -1,5 +1,5 @@
 # Canvas 画板
-![](https://img-1257191344.cos.ap-chengdu.myqcloud.com/canvas%20%E7%94%BB%E6%9D%BF.png?q-sign-algorithm=sha1&q-ak=AKIDcYQ2naRe7xnIA8eq3GMXZeUiD4jHAjy3&q-sign-time=1534436444;1534438244&q-key-time=1534436444;1534438244&q-header-list=&q-url-param-list=&q-signature=e1209e2695a81fd4deff045447d0fda1c29f2090&x-cos-security-token=31a1252cc76278b51dc6490b1cb93fa0b1b58b1010001&response-content-disposition=attachment)
+![](https://upload-images.jianshu.io/upload_images/12904618-e86b31e1e0556db7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 作品介绍
 使用 `canvas` 与 原生`JavaScript` 制作的 Canvas画板 作品。
@@ -12,12 +12,12 @@ v1.0版本 详细功能包含
 - 作品导出下载功能
 
 # 相关要点
-##　特性检测 / 检测支不支持touchstart
+## 特性检测 / 检测支不支持touchstart
 值得注意的是，`onmouse` 事件的 `MouseEvent` 中，直接拥有 `clientX` 与 `clientY` 属性，可以取到当前的坐标。
-![](https://img-1257191344.cos.ap-chengdu.myqcloud.com/canvas-%E9%BC%A0%E6%A0%87.jpg?q-sign-algorithm=sha1&q-ak=AKIDxqE7N97MITGvYjh27BhYWgqLKEWBuIa3&q-sign-time=1534436419;1534438219&q-key-time=1534436419;1534438219&q-header-list=&q-url-param-list=&q-signature=fa6f7f98bfa9e537cf3f10bbe526a83a49bffc6a&x-cos-security-token=abc91f1ac524f78297fa126f1f99b5d01859a5c010001&response-content-disposition=attachment)
+![](https://upload-images.jianshu.io/upload_images/12904618-287845adc3f845ca.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 但 `ontouch` 事件中，由于触屏设备多点触控的机制， `clientX` 与 `clientY` 属性被放置在 `TouchEvent` 下面的 `touches` 数组属性的第 `[0]` 项当中。
-![](https://img-1257191344.cos.ap-chengdu.myqcloud.com/canvas-touch.jpg?q-sign-algorithm=sha1&q-ak=AKIDAOmTUR2zEwaa2i53IfCgn2ujc9zxMorl&q-sign-time=1534436321;1534438121&q-key-time=1534436321;1534438121&q-header-list=&q-url-param-list=&q-signature=d6668e1d71615a321374dd30084212b1a780396f&x-cos-security-token=53fb087df583f9b91c5699df0832f0a2137dc7df10001&response-content-disposition=attachment)
+![](https://upload-images.jianshu.io/upload_images/12904618-108fc39873979097.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 ### 支持 touchstart ，监听 ontouch 事件
