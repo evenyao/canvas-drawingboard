@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <title>canvas - demo</title>
+</head>
+<body>
+  <!-- canvas 不推荐在css当中设置宽高，因为这样会拉升canvas画板 -->
+  <canvas id="canvas" width = 300 height = 300></canvas>
+  <div id="actions" class="actions">
+    <svg id="pen" class="icon active">
+      <use xlink:href="#icon-pen"></use>
+    </svg>
+    <svg id="eraser" class="icon">
+      <use xlink:href="#icon-eraser"></use>
+    </svg>
+    <svg id="clear" class="icon" style="margin-left: 30px;">
+      <use xlink:href="#icon-clear"></use>
+    </svg>
+    <svg id="save" class="icon">
+      <use xlink:href="#icon-save"></use>
+    </svg>
+  </div>
+  <ol class="colors">
+    <li id="red" class="red active"></li>
+    <li id="green" class="green"></li>
+    <li id="blue" class="blue"></li>
+  </ol>
+  <ol class="sizes">
+    <li id="thin" class="thin"></li>
+    <li id="thick" class="thick"></li>
+  </ol>
+</body>
+</html>
+<script src="main.js"></script>
+<script src="https://at.alicdn.com/t/font_796219_l9qcekqgsqc.js"></script>
