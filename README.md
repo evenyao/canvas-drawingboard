@@ -121,7 +121,7 @@ save.onclick = function(){
   document.body.appendChild(a)
   a.href = url
   a.download = '我的图画'  //图片命名
-  a.target = '_blank'
+  a.target = '_blank'  //打开另一空白页面
   a.click()
 }
 ```
