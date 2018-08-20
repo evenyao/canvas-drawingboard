@@ -1,6 +1,9 @@
 # Canvas 画板
 ![](https://upload-images.jianshu.io/upload_images/12904618-e86b31e1e0556db7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+## 预览地址：https://evenyao.github.io/canvas-drawingboard/
+
+
 ## 作品介绍
 使用 `canvas` 与 原生`JavaScript` 制作的 Canvas画板 作品。
 v1.0版本 详细功能包含
