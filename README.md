@@ -15,6 +15,12 @@ v1.0版本 详细功能包含
 - 作品导出下载功能
 
 # 相关要点
+
+## 重要的 API
+```JavaScript
+var context = canvas.getContext('2d') 
+```
+
 ## 特性检测 / 检测支不支持touchstart
 值得注意的是，`onmouse` 事件的 `MouseEvent` 中，直接拥有 `clientX` 与 `clientY` 属性，可以取到当前的坐标。
 ![](https://upload-images.jianshu.io/upload_images/12904618-287845adc3f845ca.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
