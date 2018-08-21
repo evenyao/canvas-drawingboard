@@ -17,6 +17,7 @@ v1.0版本 详细功能包含
 # 相关要点
 
 ## 重要的 API
+用于获取上下文
 ```JavaScript
 var context = canvas.getContext('2d') 
 ```
